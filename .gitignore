@@ -1,0 +1,19 @@
+# Python/cache
+__pycache__/
+*.py[cod]
+
+# Local IDE/editor state
+.idea/
+.vscode/
+
+# Dataset and generated artifacts
+data/
+emb/
+all_results/
+framework/pretrain/*_feature.emb
+
+# Environment/runtime files
+.env
+.venv/
+venv/
+*.log
